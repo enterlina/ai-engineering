@@ -16,13 +16,12 @@ and production-oriented experimentation.
 ```text
 ai-engineering/
 ├── projects/
-│   └── filmoskop-rag/
+│   ├── filmoskop-rag/
+│   └── llm-product-card-generation/
 └── README.md
 ```
 
-Each project has its own README, reproducible notebooks, dependency list, and
-documented evaluation results. Credentials, downloaded datasets, model weights,
-and large runtime checkpoints are excluded from version control.
+Each project has its own README documenting the problem, approach, findings, and limitations. Available code and reproducibility materials vary by project. Credentials, restricted datasets, model weights, and large runtime checkpoints are excluded from version control.
 
 ## Author
 
