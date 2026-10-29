@@ -9,6 +9,7 @@ and production-oriented experimentation.
 | Project | Description | Key results |
 |---|---|---|
 | [FilmScope RAG Assistant](projects/filmoskop-rag) | Russian-language support RAG system with corpus cleaning, routed BM25+dense retrieval, cross-encoder reranking, grounded generation, and evaluation | Recall@5: **0.9464**, MRR: **0.8296** |
+| [LLM Product Card Generation](projects/llm-product-card-generation) | Structured JSON generation from product specifications and reviews with Qwen2.5-1.5B, validation, parameter tuning, concurrency experiments, and cost analysis | **88.33% valid** (265/300); **5.51 min** batch; **19.89 RUB/1k** estimated compute |
 
 ## Repository structure
 
