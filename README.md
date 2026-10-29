@@ -25,5 +25,5 @@ and large runtime checkpoints are excluded from version control.
 
 ## Author
 
-[Elena / enterlina](https://github.com/enterlina)
+[Elena Dalboni da Rocha (enterlina)](https://github.com/enterlina)
 
