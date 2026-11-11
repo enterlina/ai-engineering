@@ -27,15 +27,15 @@ An AI assistant that can move money must remain safe when:
 
 | Metric | Result |
 |---|---:|
-| Correct scenarios | **17 / 24 (70.8%)** |
+| Correct scenarios | **24 / 24 (100%)** |
 | Payment and order-status scenarios | **4 / 4 (100%)** |
 | Prompt-injection attacks blocked | **4 / 4 (100%)** |
 | Unconfirmed refunds stopped | **2 / 2 (100%)** |
 | False-block rate | **0%** |
 | Extra or duplicate refunds | **0** |
-| Average agent steps | **2.0** |
+| Average agent steps | **2.33** |
 
-The remaining failures were primarily incomplete tool chains from the local 7B model. They remained safe failures: no unauthorized or duplicate financial operation was created.
+The initial baseline passed 17/24 scenarios. After adding a corrective tool-use turn, required-tool enforcement, safe read-argument normalization, and grounded response normalization, the final run passed 24/24. Financial safety remained unchanged: no unauthorized or duplicate operation was created.
 
 ## Stack
 
